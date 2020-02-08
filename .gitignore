@@ -126,3 +126,4 @@ dmypy.json
 
 # jetbrains
 .idea
+*.csv

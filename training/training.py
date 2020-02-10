@@ -14,7 +14,7 @@ import random
 import sys
 import io
 
-with io.open("../scraping/data.csv", encoding='utf-8') as f:
+with io.open("../scraping/data_cleaned.csv", encoding='utf-8') as f:
     text = f.read().lower()
     text = text[0:1000]
 print('corpus length:', len(text))
